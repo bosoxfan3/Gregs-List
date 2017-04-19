@@ -3,9 +3,14 @@
   font-family: 'Roboto', sans-serif;
 }
 
-a {
+a header {
   text-decoration: none;
   color: purple;
+}
+
+a nav {
+	text-decoration: none;
+	color: blue;
 }
 
 body {
@@ -66,8 +71,9 @@ label {
 
 .magnifying-glass {
 	border-radius: 3px;
-	width: 20px;
+	width: 28px;
 	border: 1px solid lightgray;
+	vertical-align: bottom;
 }
 
 .top-section {
