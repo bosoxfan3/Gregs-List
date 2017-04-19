@@ -3,15 +3,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
-a header {
+a {
   text-decoration: none;
-  color: purple;
 }
 
-a nav {
-	text-decoration: none;
-	color: blue;
-}
 
 body {
 	margin: 0;
@@ -56,6 +51,7 @@ main {
 	padding-top: 100px;
 }
 
+/*For the Search Bar*/
 label {
 	font-size: 12pt;
 	display: block;
@@ -77,5 +73,53 @@ label {
 }
 
 .top-section {
-	padding-bottom: 30px;
+	padding-bottom: 50px;
+}
+
+/*For the nav*/
+.prev-box {
+	border: 1px solid lightgray;
+	border-radius: 3px 0 0 3px;
+	margin-right: -5px;
+	padding: 8px;
+}
+
+.pages-box {
+	border: 1px solid lightgray;
+	padding: 8px 20px 8px 20px;
+}
+
+.next-box {
+	border: 1px solid lightgray;
+	border-radius: 0 3px 3px 0;
+	margin-left: -5px;
+	padding: 8px;
+}
+
+.black {
+	color: black;
+}
+
+/*For the Job Listings*/
+.listing-spacing {
+	padding-top: 50px;
+}
+
+section ul {
+	list-style: none;
+	padding: 0;
+}
+
+section li {
+	margin-bottom: 10px;
+}
+
+.gray {
+	color: gray;
+}
+
+.jobs {
+	color: blue;
+	padding-left: 5px;
+	padding-right: 5px;
 }
